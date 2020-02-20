@@ -47,3 +47,8 @@ Class.forName("oracle.jdbc.driver.OracleDriver");
 Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@127.0.0.1:1521:XE", "hr", "hr");
 ```
 
+
+
+## Screenshot
+
+![main](https://user-images.githubusercontent.com/47481501/74946090-20021600-543c-11ea-94a6-2d1c6754b65b.jpg)
