@@ -27,16 +27,16 @@ You can compile and run with IDE for Java.
 
 ```sql
 CREATE TABLE "MEMODATA" (	
-    "USERKEY" NUMBER, 
-	"DATEKEY" NUMBER, 
-	"MEMO" VARCHAR2(150 BYTE)
+    "USERKEY" NUMBER,
+    "DATEKEY" NUMBER,
+    "MEMO" VARCHAR2(150 BYTE)
 );
 ```
 
 ```sql
 CREATE TABLE "USERDATA" (	
-    "USERKEY" NUMBER, 
-	"NAME" VARCHAR2(32 BYTE)
+    "USERKEY" NUMBER,
+    "NAME" VARCHAR2(32 BYTE)
 );
 ```
 
