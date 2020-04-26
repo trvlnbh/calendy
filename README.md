@@ -1,6 +1,6 @@
 # Calendy
 
-This is a simple GUI calendar and memo application. It has made as a Swing library in Java.
+This is a simple GUI calendar and memo application. It had made as Swing library in Java.
 
 The language of this application is **Korean**.
 
@@ -10,20 +10,20 @@ The language of this application is **Korean**.
 
 * Java SE 10
 * Oracle Database 11g Express Edition
-  * I just used this DBMS. But if modifying a little bit of code, you can use another DBMS.
+  * I just used this DBMS. But if you have a break time to modify a little bit of code, you can use another DBMS.
 
 
 
 ## Run
 
-You can compile and run with IDE for Java.
+You can compile and run with IDE for Java. (e.g. Eclipse)
 
 
 
 ### Preset
 
 * All directories must be located in the same directory.
-* Some database table settings are needed before running. Create tow tables as shown below.
+* Some database table settings are needed before running. Create tables as shown below.
 
 ```sql
 CREATE TABLE "MEMODATA" (	
@@ -40,7 +40,7 @@ CREATE TABLE "USERDATA" (
 );
 ```
 
-* You will probably use different database settings, so please modify all of the following codes in the files.
+* You will probably use different database settings, so please modify all of the following codes for your environment in the code.
 
 ```java
 Class.forName("oracle.jdbc.driver.OracleDriver");
